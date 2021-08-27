@@ -38,6 +38,16 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  switch(color){
+    case 'blue':
+     return 'this is blue';
+    case 'red':
+     return 'this is red';
+    case 'green':
+      return 'this is green';
+    case 'orange':
+      return 'this is green';
+  }
 }
 
 function esDiezOCinco(numero) {
@@ -84,6 +94,7 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+
 }
 
 function esVerdadero(valor){
