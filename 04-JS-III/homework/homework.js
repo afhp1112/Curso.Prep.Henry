@@ -125,7 +125,7 @@ function multiplicarArgumentos() {
   }
   else {
     for (var a=0; a < arguments.length; a++){
-      total= total*arguments[a]
+      total= total*arguments[a];
     }
     return total; 
   } 
